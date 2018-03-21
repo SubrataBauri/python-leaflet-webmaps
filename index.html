@@ -15,7 +15,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <style> #map_f276613a414d475fbc1f8de82394cc86 {
+            <style> #map_bb0c19b9fe084533adb979a7215a53b6 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -27,7 +27,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_f276613a414d475fbc1f8de82394cc86" ></div>
+            <div class="folium-map" id="map_bb0c19b9fe084533adb979a7215a53b6" ></div>
         
 </body>
 <script>    
@@ -37,10 +37,10 @@
                 var bounds = null;
             
 
-            var map_f276613a414d475fbc1f8de82394cc86 = L.map(
-                                  'map_f276613a414d475fbc1f8de82394cc86',
+            var map_bb0c19b9fe084533adb979a7215a53b6 = L.map(
+                                  'map_bb0c19b9fe084533adb979a7215a53b6',
                                   {center: [22.622033,88.450197],
-                                  zoom: 13,
+                                  zoom: 14,
                                   maxBounds: bounds,
                                   layers: [],
                                   worldCopyJump: false,
@@ -49,7 +49,7 @@
             
         
     
-            var tile_layer_2a65e371c5334506bfb49fd8a280b71d = L.tileLayer(
+            var tile_layer_6279436278cf4d5789b9b95c194a44ab = L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                 {
   "attribution": null,
@@ -59,6 +59,72 @@
   "noWrap": false,
   "subdomains": "abc"
 }
-                ).addTo(map_f276613a414d475fbc1f8de82394cc86);
+                ).addTo(map_bb0c19b9fe084533adb979a7215a53b6);
+        
+    
+
+            var marker_a1fa682523a7474d8364a25ca34b50dc = L.marker(
+                [22.622033,88.450197],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bb0c19b9fe084533adb979a7215a53b6);
+            
+    
+
+                var icon_abaf159a82f14408b530541f9803f932 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1fa682523a7474d8364a25ca34b50dc.setIcon(icon_abaf159a82f14408b530541f9803f932);
+            
+    
+            var popup_34a67c6536494e9193a4c4dfb5ea7a0e = L.popup({maxWidth: '300'});
+
+            
+                var html_c949037a80ef4290980b0f46aed5537a = $('<div id="html_c949037a80ef4290980b0f46aed5537a" style="width: 100.0%; height: 100.0%;">City Center 2,   New Town</div>')[0];
+                popup_34a67c6536494e9193a4c4dfb5ea7a0e.setContent(html_c949037a80ef4290980b0f46aed5537a);
+            
+
+            marker_a1fa682523a7474d8364a25ca34b50dc.bindPopup(popup_34a67c6536494e9193a4c4dfb5ea7a0e);
+
+            
+        
+    
+
+            var marker_72077e24c9594421b041f22a9a1a02c2 = L.marker(
+                [22.621086,88.458555],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bb0c19b9fe084533adb979a7215a53b6);
+            
+    
+
+                var icon_136ad2c53d104d31b77432df8716c5dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72077e24c9594421b041f22a9a1a02c2.setIcon(icon_136ad2c53d104d31b77432df8716c5dc);
+            
+    
+            var popup_cd9523c8d5f844f0984067235e54644a = L.popup({maxWidth: '300'});
+
+            
+                var html_e7000f575239491fa65a3ad9fb37d2f2 = $('<div id="html_e7000f575239491fa65a3ad9fb37d2f2" style="width: 100.0%; height: 100.0%;">NKDA Stadium</div>')[0];
+                popup_cd9523c8d5f844f0984067235e54644a.setContent(html_e7000f575239491fa65a3ad9fb37d2f2);
+            
+
+            marker_72077e24c9594421b041f22a9a1a02c2.bindPopup(popup_cd9523c8d5f844f0984067235e54644a);
+
+            
         
 </script>
